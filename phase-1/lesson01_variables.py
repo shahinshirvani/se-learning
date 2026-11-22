@@ -3,7 +3,7 @@ qty = 2
 unit_price = 45000
 packaging_fee, = 5000
 has_stock = True
-print(f"Product: {product_name}, Qty: {qty}, Unit Price: {unit_price}, Packaging Fee: {packaging_fee}, In Stock: {has_stock}")
+print(f"Product: {product_name}, Qty: {qty}, Total: {unit_price * qty + packaging_fee} Toman, Packaging Fee: {packaging_fee}, In Stock: {has_stock}")
 
 print(10 / 2) # 5
 print(10 // 3) # I do not know what this is
